@@ -1,0 +1,8 @@
+{
+  "name": "Dockerized S3 Object Storage Simulator",
+  "description": "An S3-inspired full-stack object storage management system featuring bucket creation, prefix path folding, custom metadata tags, temporary pre-signed links, and SQL lifecycle policies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
