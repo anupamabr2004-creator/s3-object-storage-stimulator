@@ -4,7 +4,7 @@ A lightweight, self-contained, and highly educational **S3-inspired Object Stora
 
 ---
 
-## 🎯 What is the Use Case? Why Use This?
+##  What is the Use Case? Why Use This?
 
 In modern cloud computing, **Object Storage** (like AWS S3, Google Cloud Storage, or Azure Blob Storage) is the gold standard for hosting files. However, cloud systems present significant barriers to entry for beginners, students, and offline developers:
 
@@ -12,12 +12,12 @@ In modern cloud computing, **Object Storage** (like AWS S3, Google Cloud Storage
 2. **The "Black Box" Problem:** Traditional cloud providers hide their indexing and relational engines under a proprietary API. It is hard to "see" how flat key-value pairs, tags, and lifecycle transitions work behind the scenes.
 3. **Heavy Dev Environments:** While tools like MinIO or LocalStack are excellent, they are resource-heavy, require complex configuration, and lack a visual, beginner-friendly educational interface explaining the core pillars of object storage.
 
-### 🌟 The Solution: This Simulator
+###  The Solution: This Simulator
 This project acts as an **interactive offline laboratory and local dev-server**. It replicates the complete visual lifecycle of S3 console operations, backed by a relational database engine, and explains *exactly* how the cloud manages files under the hood.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Interactive S3 Concept Sandbox
 An interactive learning dashboard designed to make cloud storage concepts approachable for everyone:
@@ -74,7 +74,7 @@ Traditional filesystems map directory nodes on disk. This simulator models objec
 
 ---
 
-## ⚙️ Local Setup Instructions
+##  Local Setup Instructions
 
 You can run this application locally either via standard Node.js scripts or inside an isolated container with Docker Compose.
 
@@ -138,7 +138,7 @@ docker compose down
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── data/                    # Persistent storage volume (SQLite DB & physical bucket files)
